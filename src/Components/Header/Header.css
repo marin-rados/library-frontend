@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 7vh;
+    background-color: white;
+    border-bottom: 1px solid #a08e72;
+    box-sizing: border-box;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    margin: 0 1.25rem;
+    height: fit-content;
+}
+
+.logo {
+    width: 2.5rem;
+}
+
+.header-buttons {
+    display: flex;
+  }
+  
+  .header-buttons button,
+  .header-buttons a {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .header-buttons a {
+    background-color: #a08e72;
+    color: #fff;
+  }
+  
+  .header-buttons button:hover,
+  .header-buttons a:hover {
+    opacity: 0.8;
+  }
